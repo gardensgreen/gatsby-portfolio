@@ -3,18 +3,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Repository from "../components/works/github"
 import { graphql } from "gatsby"
-import {RepoGrid, RepoInfo, Avatar} from "../components/styled/repository"
-import {SectionIntro, ContainerLayout} from "../components/common";
+import { RepoGrid, RepoInfo, Avatar } from "../components/styled/repository"
+import { SectionIntro, ContainerLayout } from "../components/common"
 
-const RepositoryPage = ({data}) => { 
-  const {
-    name,
-    avatarUrl,
-    repositories,
-  } = data.githubData.data.viewer
+const RepositoryPage = ({ data }) => {
+  const { name, avatarUrl, repositories } = data.githubData.data.viewer
 
   return (
-    <Layout> 
+    <Layout>
       <SEO title="Github Repositories" />
       <ContainerLayout>
         <SectionIntro>
@@ -23,7 +19,19 @@ const RepositoryPage = ({data}) => {
             <h2>{name}</h2>
           </RepoInfo>
           <RepoGrid>
-            {repositories.nodes.map((repo, index) => <Repository key={index} repo={repo} />).reverse()}
+            {repositories.nodes
+              .map((repo, index) => {
+                if (
+                  (repo.name === "sink-overflow" &&
+                    repo.stargazers.totalCount > 5) ||
+                  repo.name === "instaclone" ||
+                  repo.name === "octuor" ||
+                  repo.name === "castaway"
+                ) {
+                  return <Repository key={index} repo={repo} />
+                }
+              })
+              .reverse()}
           </RepoGrid>
         </SectionIntro>
       </ContainerLayout>
@@ -55,9 +63,6 @@ export const gitHubQuery = graphql`
                     color
                   }
                 }
-              }
-              licenseInfo {
-                name
               }
               stargazers {
                 totalCount

@@ -22,13 +22,21 @@ const About = () => {
           <AboutSection>
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle> Front End Developer</SubTitle>
-            </div> 
+              <SubTitle>Full Stack Developer</SubTitle>
+
+              <span class="devicons devicons-javascript" style={{ marginLeft: "70px", fontSize: "2.5rem", color: "#ffbf00", marginRight: "10px"}}></span>
+              <span class="devicons devicons-python" style={{ fontSize: "2.5rem", color: "#0040ff", marginRight: "10px"}}></span>
+              <span class="devicons devicons-postgresql" style={{ fontSize: "2.5rem", color: "#bf00ff", marginRight: "10px"}}></span>
+              <span class="devicons devicons-react" style={{ fontSize: "2.5rem", color: "#00bfff", marginRight: "10px"}}></span>
+              <span class="devicons devicons-git" style={{ fontSize: "2.5rem", color: "#00ff80", marginRight: "10px"}}></span>
+              <span class="devicons devicons-docker" style={{ fontSize: "2.5rem", color: "#ff0040", marginRight: "10px"}}></span>
+            </div>
             <div>
-              <Title> Hello, I’m AbdAli </Title>
-              <Text> I'm a digital Front End Developer hailing from <b className="text-primary lined-link">North Africa</b> living in Casablanca. </Text>
-              <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic & clean designs with strong user experience.</Text>
-              <Text> behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+
+              <Title>Hello, I’m Daniel.</Title>
+              <Text> I'm a Software Engineer and my true passion stems from solving problems by leveraging logic, creativity and research.</Text>
+
+              <Text>  I have a shown history working as a UI Developer in the communication sector, tackling complex business-driven questions. Through my experiences, I acuminated an ability to find holes and access opportunity. I strive to be an inveterate student by dedicating myself to learning new things. I love collaborating with others in an iterative manner to achieve a beautiful product.
               </Text>
               <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
             </div>

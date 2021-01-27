@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
-  Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
-  defaultDescription: 'Software engineer!', 
+  SiteTitle: "Daniel",
+  Sitelogo: "#",
+  SiteLogoText: "Daniel",
+  SiteAuthor: "Daniel Tillero",
+  SiteDescription: "Software Engineer",
+  defaultDescription: "Software engineer!",
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -40,21 +40,21 @@ module.exports = {
   }`,
   githubApiVariables: {
     number_of_repos: 12,
-  }, 
+  },
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    twitter: "https://twitter.com/dtmdot",
+    github: "https://github.com/gardensgreen",
+    linkedin: "https://www.linkedin.com/in/danieltillero/",
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
-    zipCode: 'ZipCode',
+    city: "Casablanca",
+    region: "CurvaSud",
+    country: "Morocco",
+    zipCode: "ZipCode",
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
-    phone: 'phone number',
+    email: "danieltillero67@gmail.com",
+    phone: "9544960899",
   },
-  SiteCopyright: '2020',
-};
+  SiteCopyright: "2020",
+}

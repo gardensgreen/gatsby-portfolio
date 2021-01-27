@@ -1,6 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
-import variables from "../../../data/variables";
-import './fonts.css';
+import { createGlobalStyle } from "styled-components"
+import variables from "../../../data/variables"
+import "./fonts.css"
+import "./devicons.css"
 
 export const GlobalStyle = createGlobalStyle`
   // normalize
@@ -102,7 +103,7 @@ export const GlobalStyle = createGlobalStyle`
     [hidden] {
       display: none;
     }
-    
+
     .text-dark {
       color: ${variables.black};
     }
@@ -120,7 +121,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  
+
 .lined-link {
   display: inline-block;
   position: relative;
@@ -141,7 +142,7 @@ export const GlobalStyle = createGlobalStyle`
     transform: scale(0, 1);
     transform-origin: 100% 50%;
     will-change: transform;
-    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1), 
+    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1),
     -webkit-transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   }
   &:hover:after,
@@ -149,7 +150,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${variables.primary};
     transform: scale(1);
     transform-origin: 0 50%;
-    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s ease-out, 
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s ease-out,
     -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
   }
 }
