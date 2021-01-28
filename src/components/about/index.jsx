@@ -23,13 +23,14 @@ const About = () => {
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
               <SubTitle>Full Stack Developer</SubTitle>
-
-              <span class="devicons devicons-javascript" style={{ marginLeft: "70px", fontSize: "2.5rem", color: "#ffbf00", marginRight: "10px"}}></span>
-              <span class="devicons devicons-python" style={{ fontSize: "2.5rem", color: "#0040ff", marginRight: "10px"}}></span>
-              <span class="devicons devicons-postgresql" style={{ fontSize: "2.5rem", color: "#bf00ff", marginRight: "10px"}}></span>
-              <span class="devicons devicons-react" style={{ fontSize: "2.5rem", color: "#00bfff", marginRight: "10px"}}></span>
-              <span class="devicons devicons-git" style={{ fontSize: "2.5rem", color: "#00ff80", marginRight: "10px"}}></span>
-              <span class="devicons devicons-docker" style={{ fontSize: "2.5rem", color: "#ff0040", marginRight: "10px"}}></span>
+              <div style={{textAlign: "center"}}>
+                <span class="devicons devicons-javascript" style={{ fontSize: "2.5rem", color: "#ffbf00", marginRight: "10px"}}></span>
+                <span class="devicons devicons-python" style={{ fontSize: "2.5rem", color: "#0040ff", marginRight: "10px"}}></span>
+                <span class="devicons devicons-postgresql" style={{ fontSize: "2.5rem", color: "#bf00ff", marginRight: "10px"}}></span>
+                <span class="devicons devicons-react" style={{ fontSize: "2.5rem", color: "#00bfff", marginRight: "10px"}}></span>
+                <span class="devicons devicons-git" style={{ fontSize: "2.5rem", color: "#00ff80", marginRight: "10px"}}></span>
+                <span class="devicons devicons-docker" style={{ fontSize: "2.5rem", color: "#ff0040", marginRight: "10px"}}></span>
+              </div>
             </div>
             <div>
 
