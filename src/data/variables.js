@@ -1,6 +1,5 @@
-  
 export default {
-  primary: "#ff2d2d",
+  primary: "#295564",
   inverse: "#fff",
   // colors
   darkGrey: "#333447",
@@ -13,5 +12,5 @@ export default {
   breakpointPhone: "850px",
   breakpointTablet: "1024px",
   breakpointLaptop: "1200px",
-  breakpointLarge: "60em" // 960px
+  breakpointLarge: "60em", // 960px
 }

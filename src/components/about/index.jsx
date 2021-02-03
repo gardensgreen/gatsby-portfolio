@@ -6,7 +6,7 @@ import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile.webp" }) {
+      placeholderImage: file(relativePath: { eq: "code.gif" }) {
         childImageSharp {
           fluid(maxWidth: 550, quality: 100) {
             ...GatsbyImageSharpFluid
@@ -21,15 +21,19 @@ const About = () => {
         <ContainerLayout>
           <AboutSection>
             <div>
-              <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle>Full Stack Developer</SubTitle>
+
+
+
+              <Avatar src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="user photo" />
+
               <div style={{textAlign: "center"}}>
-                <span class="devicons devicons-javascript" style={{ fontSize: "2.5rem", color: "#ffbf00", marginRight: "10px"}}></span>
-                <span class="devicons devicons-python" style={{ fontSize: "2.5rem", color: "#0040ff", marginRight: "10px"}}></span>
-                <span class="devicons devicons-postgresql" style={{ fontSize: "2.5rem", color: "#bf00ff", marginRight: "10px"}}></span>
-                <span class="devicons devicons-react" style={{ fontSize: "2.5rem", color: "#00bfff", marginRight: "10px"}}></span>
-                <span class="devicons devicons-git" style={{ fontSize: "2.5rem", color: "#00ff80", marginRight: "10px"}}></span>
-                <span class="devicons devicons-docker" style={{ fontSize: "2.5rem", color: "#ff0040", marginRight: "10px"}}></span>
+                <SubTitle>Full Stack Developer</SubTitle>
+                <span className="devicons devicons-javascript" style={{ fontSize: "2.5rem", color: "#ffbf00", marginRight: "10px"}}></span>
+                <span className="devicons devicons-python" style={{ fontSize: "2.5rem", color: "#0040ff", marginRight: "10px"}}></span>
+                <span className="devicons devicons-postgresql" style={{ fontSize: "2.5rem", color: "#bf00ff", marginRight: "10px"}}></span>
+                <span className="devicons devicons-react" style={{ fontSize: "2.5rem", color: "#00bfff", marginRight: "10px"}}></span>
+                <span className="devicons devicons-git" style={{ fontSize: "2.5rem", color: "#00ff80", marginRight: "10px"}}></span>
+                <span className="devicons devicons-docker" style={{ fontSize: "2.5rem", color: "#ff0040", marginRight: "10px"}}></span>
               </div>
             </div>
             <div>

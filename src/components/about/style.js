@@ -11,7 +11,7 @@ export const AboutSection = styled.section`
     text-align: left;
   }
 `
-export const Avatar = styled(Img)`
+export const Avatar = styled.img`
   border-radius: 5px;
   box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.15);
   width: 100%;
