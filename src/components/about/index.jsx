@@ -35,10 +35,7 @@ const About = () => {
             <div>
 
               <Title>Hello, I’m Daniel.</Title>
-              <Text> I'm a Software Engineer and my true passion stems from solving problems by leveraging logic, creativity and research.</Text>
-
-              <Text>  I have a shown history working as a UI Developer in the communication sector, tackling complex business-driven questions. Through my experiences, I acuminated an ability to find holes and access opportunity. I strive to be an inveterate student by dedicating myself to learning new things. I love collaborating with others in an iterative manner to achieve a beautiful product.
-              </Text>
+              <Text> I'm a Software Developer with an aptitude for problem solving and learning. Throughout my unique experiences in Software Development I have acquired a knack for UI/UX, fullstack development, and cloud infrastructure. My mission is to use all the tools I have at my disposal, my experiences and my multicultural background to have a global impact on productivity and efficiency. I am looking for a role in a growing company working towards creating ground breaking products that can impact the world in a positive way.</Text>
               <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
             </div>
           </AboutSection>
