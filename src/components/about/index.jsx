@@ -39,7 +39,7 @@ const About = () => {
             <div>
 
               <Title>Hello, I’m Daniel.</Title>
-              <Text> I'm a Software Developer with an aptitude for problem solving and learning. Throughout my unique experiences in Software Development I have acquired a knack for UI/UX, fullstack development, and cloud infrastructure. My mission is to use all the tools I have at my disposal, my experiences and my multicultural background to have a global impact on productivity and efficiency. I am looking for a role in a growing company working towards creating ground breaking products that can impact the world in a positive way.</Text>
+              <Text> I'm a Software Developer with an aptitude for problem solving and learning. I've taken advantage of opportunities in my professional experience to deepen my knowledge and understanding of full stack development, UI/UX, and cloud infrastructure. I derive a sense of fulfillment from leveraging my experience, resourcefulness, and multicultural upbringing to drive impact. My aim is to actively contribute unique perspectives within a growing team that is united in working towards driving positive change through creativity.</Text>
               <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
             </div>
           </AboutSection>
